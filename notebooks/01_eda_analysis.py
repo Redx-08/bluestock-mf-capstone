@@ -1,27 +1,3 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-from pathlib import Path
-import sqlite3
-
-DB_PATH = Path("data/db/bluestock_mf.db")
-RAW_PATH = Path("data/raw")
-PROCESSED_PATH = Path("data/processed")
-REPORTS_PATH = Path("reports")
-REPORTS_PATH.mkdir(parents=True, exist_ok=True)
-
-conn = sqlite3.connect(DB_PATH)
-
-plt.style.use('seaborn-v0_8-darkgrid')
-sns.set_palette("Set2")
-
-print("=" * 60)
-print("DAY 3: EXPLORATORY DATA ANALYSIS")
-print("=" * 60)
 
 # ============================================
 # TASK 1: NAV TREND ANALYSIS (Plotly)
