@@ -39,6 +39,10 @@ for code in nav_df['amfi_code'].unique():
 nav_df_clean = pd.concat(filled_dfs, ignore_index=True)
 nav_df_clean['date'] = pd.to_datetime(nav_df_clean['date'])
 
+# Calculate daily returns for each fund
+print("Calculating daily returns...")
+nav_df_clean['daily_return'] = nav_df_clean.groupby('amfi_code')['nav'].pct_change()
+
 print(f"Final rows after forward-fill: {len(nav_df_clean):,}")
 
 nav_df_clean.to_csv(PROCESSED_PATH / "02_nav_history_clean.csv", index=False)

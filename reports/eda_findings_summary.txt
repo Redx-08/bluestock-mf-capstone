@@ -1,0 +1,50 @@
+
+================================================================================
+10 KEY EDA FINDINGS - MUTUAL FUND ANALYTICS PLATFORM
+================================================================================
+
+1. MARKET PERFORMANCE (2023 Bull Run):
+   Equity funds saw 15-25% NAV growth during Mar-Dec 2023, driven by post-COVID
+   economic recovery and strong FII inflows. Chart reference: nav_trend_plotly.html
+
+2. MARKET CORRECTION (2024):
+   Aug-Nov 2024 saw 8-12% NAV decline across large-cap funds due to geopolitical
+   tensions and interest rate concerns. Chart reference: nav_trend_plotly.html
+
+3. AUM CONCENTRATION:
+   Top 3 fund houses (SBI, ICICI, HDFC) control 55%+ of total industry AUM.
+   SBI alone reached Rs.12.5 Lakh Crore in Dec 2025. Chart: aum_growth_barchart.png
+
+4. SIP MILESTONE ACHIEVED:
+   Monthly SIP inflows hit all-time high of Rs.31,002 Cr in December 2025,
+   representing 15% YoY growth from Dec 2024. Chart: sip_inflow_plotly.html
+
+5. CATEGORY FLOW PATTERNS:
+   Large Cap and Mid Cap categories saw strongest net inflows in H1 FY25.
+   Liquid funds experienced outflows during rising rate environment.
+   Chart: category_inflow_heatmap.png
+
+6. AGE DEMOGRAPHIC INSIGHTS:
+   36-45 age group contributes highest average SIP amount (Rs.8,500+).
+   26-35 age group has largest investor count (38% of total).
+   Chart: investor_demographics.png
+
+7. GEOGRAPHIC CONCENTRATION:
+   Top 5 states (Maharashtra, Delhi, Gujarat, Karnataka, Tamil Nadu) account
+   for 62% of total SIP investments. T30 cities dominate with 78% share.
+   Chart: geo_distribution.png
+
+8. FOLIO GROWTH ACCELERATION:
+   Total mutual fund folios doubled from 13.26 Cr (Jan 2022) to 26.12 Cr (Dec 2025).
+   Average annual growth rate: 18.5%. Chart: folio_growth_plotly.html
+
+9. FUND CORRELATION PATTERNS:
+   Most large-cap funds show high correlation (0.75-0.92), limiting diversification
+   benefits. Mid-cap and small-cap funds show moderate correlation (0.45-0.65).
+   Chart: correlation_matrix.png
+
+10. SECTOR CONCENTRATION RISK:
+    Financial services (Banks + NBFCs + Insurance) represent 38% of equity fund
+    portfolios. IT and Pharma sectors combined: 22%. Chart: sector_allocation_donut.png
+
+================================================================================

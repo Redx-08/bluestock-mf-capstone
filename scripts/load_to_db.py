@@ -42,10 +42,9 @@ print("Loading fact_performance...")
 perf_df = pd.read_csv(PROCESSED_PATH / "07_scheme_performance_clean.csv")
 perf_df.to_sql('fact_performance', conn, if_exists='replace', index=False)
 
-print("Loading fact_aum...")
-aum_df = pd.read_csv(PROCESSED_PATH / "03_aum_by_fund_house.csv")
-aum_df['date'] = pd.to_datetime(aum_df['date'])
-aum_df.to_sql('fact_aum', conn, if_exists='replace', index=False)
+print("Loading fact_nav...")
+nav_df = pd.read_csv(PROCESSED_PATH / "02_nav_history_clean.csv")
+nav_df.to_sql('fact_nav', conn, if_exists='replace', index=False)
 
 # Verify row counts
 print("\n=== VERIFICATION ===")
