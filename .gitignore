@@ -2,3 +2,15 @@
 *.sqlite
 __pycache__/
 .DS_Store
+
+# Jupyter checkpoints
+**/.ipynb_checkpoints/
+*.ipynb_checkpoints*
+
+# Duplicate databases
+notebooks/data/
+data/db/
+
+# Python cache
+__pycache__/
+*.pyc
